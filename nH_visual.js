@@ -1,7 +1,4 @@
-/*
-- UNLOCK PARTICLES
-- EXPERIMENT WITH VARYING THE FLICKER SPEED OF PARTICLES
-*/
+/* Copyright 2019 Paul G. Pontious */
 
 var userTrigger;
 var btnToggle = false;

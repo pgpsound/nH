@@ -1,3 +1,4 @@
+/* Copyright 2019 Paul G. Pontious */
 
 var nmbrSrcs = 5;
 var mutateSpeed = 15;
