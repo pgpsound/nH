@@ -82,7 +82,7 @@ for (i = 0; i < nmbrSrcs; i++) {
 //-----------------------------
 try {
     window.AudioContext = window.AudioContext || window.webkitAudioContext;
-    audioContext = new window.AudioContext({sampleRate: 44100, latencyHint: "balanced"});
+    audioContext = new window.AudioContext({sampleRate: 44100, latencyHint: "playback"});
 } catch(e) {
     audioLoop.proceed = false;
     alert('Web Audio API not supported in this browser.');
