@@ -74,7 +74,7 @@ var particleSwitch = false;
 
 function particleLoad() {
   if (particleSwitch == false) {
-    particlesJS.load('particles-js', 'https://dl.dropboxusercontent.com/s/3kf5ky6xek6jxgy/particlesjs-config.json?dl=0', function() {
+    particlesJS.load('particles-js', "particlesjs-config", function() {
       console.log('callback - particles.js config loaded');
     });
   particleSwitch = true;
