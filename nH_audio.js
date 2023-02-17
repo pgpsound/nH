@@ -28,20 +28,20 @@ var audioLoop = {
     buffer: {},
     compatibility: {},
     files: [
-      'https://dl.dropboxusercontent.com/s/tw8giqci0ysyfnr/SomethingUseful_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/jsa8kce75fg23ij/SomethingUseful_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/yejdgk4pqketoru/SeaWaves3_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/8wvv59g6nhbs95t/SeaWaves3_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/pju0x8edvuozxw3/SeaWaves2_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/s5y0c9x75qrj91i/SeaWaves2_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/aggk3ki8v9h4dv5/SeaWaves1_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/vv6w1hil2tgxa14/SeaWaves1_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/br4bdzmgnnhy3yh/RainClouds_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/r7bgc7a1j2dgmgz/RainClouds_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/ysdrpk0nzb9e19k/MonsterBass_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/70swqqedxp8hull/MonsterBass_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/2ea1i4j1k1h3ps1/GhostVoices_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/z1ht3gkoz4j2d41/GhostVoices_a.m4a?dl=0'
+      '/audio/SomethingUseful_b.m4a',
+      '/audio/SomethingUseful_a.m4a',
+      '/audio/SeaWaves3_b.m4a',
+      '/audio/SeaWaves3_a.m4a',
+      '/audio/SeaWaves2_b.m4a',
+      '/audio/SeaWaves2_a.m4a',
+      'audio/SeaWaves1_b.m4a',
+      'audio/SeaWaves1_a.m4a',
+      'audio/RainClouds_b.m4a',
+      'audio/RainClouds_a.m4a',
+      'audio/MonsterBass_b.m4a',
+      'audio/MonsterBass_a.m4a',
+      'audio/GhostVoices_b.m4a',
+      'audio/GhostVoices_a.m4a'
     ],
     proceed: true,
     source_loop: {},
@@ -483,33 +483,33 @@ function mutate() {
 
 var audioOneOff = {
     files: [
-      'https://dl.dropboxusercontent.com/s/1oywfwepkmamm83/Curved%20Air_1_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/9gdubhy9kqay9ch/Curved%20Air_1_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/jz5uvmkouzsi12j/Curved%20Air_2_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/heo9oval2srjcmg/Curved%20Air_2_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/11c303cjybvg7iv/Curved%20Air_3_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/rsjmgcfvhuvaday/Curved%20Air_3_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/ew82cw5g8ojxnrv/Curved%20Air_4_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/4cnwl3e4e5hfnki/Curved%20Air_4_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/3ysuj7em42rcvly/Curved%20Air_5_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/levax21r1iglze1/Curved%20Air_5_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/9lspzqfxdoqovh5/Curved%20Air_6_a.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/hgt3g53kiuoyydg/Curved%20Air_6_b.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/k15encoxsj4d9nl/Scale_01.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/3yt5bj3bpwn7b68/Scale_02.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/terb748zh17bgk6/Scale_03.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/wd63wxibet3kc1m/Scale_04.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/bf8wab4c5csk0o2/Scale_05.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/tuwbr5h1ffachzl/Scale_06.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/in9xbgmciptmfiz/Scale_07.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/z52il5f9iytkhig/Scale_08.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/uo5agawcvakj00l/Scale_09.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/katf11cfjyhou82/Scale_10.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/2i6e5ei7sgx9ntm/Scale_11.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/t0b3krj4n7lq3ce/Scale_12.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/cifvclgd4hjauqv/Scale_13.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/ra1h2l0d6i73x4s/Scale_14.m4a?dl=0',
-      'https://dl.dropboxusercontent.com/s/fe943srtgcfyjhn/Scale_15.m4a?dl=0'
+      'audio/Curved%20Air_1_a.m4a',
+      'audio/Curved%20Air_1_b.m4a',
+      'audio/Curved%20Air_2_a.m4a',
+      'audio/Curved%20Air_2_b.m4a',
+      'audio/Curved%20Air_3_a.m4a',
+      'audio/Curved%20Air_3_b.m4a',
+      'audio/Curved%20Air_4_a.m4a',
+      'audio/Curved%20Air_4_b.m4a',
+      'audio/Curved%20Air_5_a.m4a',
+      'audio/Curved%20Air_5_b.m4a',
+      'audio/Curved%20Air_6_a.m4a',
+      'audio/Curved%20Air_6_b.m4a',
+      'audio/Scale_01.m4a',
+      'audio/Scale_02.m4a',
+      'audio/Scale_03.m4a',
+      'audio/Scale_04.m4a',
+      'audio/Scale_05.m4a',
+      'audio/Scale_06.m4a',
+      'audio/Scale_07.m4a',
+      'audio/Scale_08.m4a',
+      'audio/Scale_09.m4a',
+      'audio/Scale_10.m4a',
+      'audio/Scale_11.m4a',
+      'audio/Scale_12.m4a',
+      'audio/Scale_13.m4a',
+      'audio/Scale_14.m4a',
+      'audio/Scale_15.m4a'
     ],
     buffer: {},
     compatibility: {},
@@ -838,109 +838,4 @@ function oneOffZero() {
   audioOneOff.instance = [];
   audioOneOff.rndmOrder = shuffle(audioOneOff.rndmOrder);
 };
-/*
-m4a tags ::
-LOOPS
-'https://dl.dropboxusercontent.com/s/tw8giqci0ysyfnr/SomethingUseful_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/jsa8kce75fg23ij/SomethingUseful_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/yejdgk4pqketoru/SeaWaves3_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/8wvv59g6nhbs95t/SeaWaves3_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/pju0x8edvuozxw3/SeaWaves2_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/s5y0c9x75qrj91i/SeaWaves2_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/aggk3ki8v9h4dv5/SeaWaves1_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/vv6w1hil2tgxa14/SeaWaves1_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/br4bdzmgnnhy3yh/RainClouds_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/r7bgc7a1j2dgmgz/RainClouds_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/ysdrpk0nzb9e19k/MonsterBass_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/70swqqedxp8hull/MonsterBass_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/2ea1i4j1k1h3ps1/GhostVoices_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/z1ht3gkoz4j2d41/GhostVoices_a.m4a?dl=0'
 
-
-ONE OFFS
-'https://dl.dropboxusercontent.com/s/1oywfwepkmamm83/Curved%20Air_1_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/9gdubhy9kqay9ch/Curved%20Air_1_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/jz5uvmkouzsi12j/Curved%20Air_2_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/heo9oval2srjcmg/Curved%20Air_2_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/11c303cjybvg7iv/Curved%20Air_3_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/rsjmgcfvhuvaday/Curved%20Air_3_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/ew82cw5g8ojxnrv/Curved%20Air_4_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/4cnwl3e4e5hfnki/Curved%20Air_4_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/3ysuj7em42rcvly/Curved%20Air_5_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/levax21r1iglze1/Curved%20Air_5_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/9lspzqfxdoqovh5/Curved%20Air_6_a.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/hgt3g53kiuoyydg/Curved%20Air_6_b.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/k15encoxsj4d9nl/Scale_01.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/3yt5bj3bpwn7b68/Scale_02.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/terb748zh17bgk6/Scale_03.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/wd63wxibet3kc1m/Scale_04.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/bf8wab4c5csk0o2/Scale_05.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/tuwbr5h1ffachzl/Scale_06.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/in9xbgmciptmfiz/Scale_07.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/z52il5f9iytkhig/Scale_08.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/uo5agawcvakj00l/Scale_09.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/katf11cfjyhou82/Scale_10.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/2i6e5ei7sgx9ntm/Scale_11.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/t0b3krj4n7lq3ce/Scale_12.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/cifvclgd4hjauqv/Scale_13.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/ra1h2l0d6i73x4s/Scale_14.m4a?dl=0',
-'https://dl.dropboxusercontent.com/s/fe943srtgcfyjhn/Scale_15.m4a?dl=0'
-
-
-
-
-
-MP3 Loop Links
-'https://dl.dropboxusercontent.com/s/qsmz317j1rupdr6/GhostVoices_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/een05hmpnsjxuj8/GhostVoices_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/3ysw752vnk9e82l/MonsterBass_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/dgthshzdgf24d7x/MonsterBass_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/sis0wcyfp5zjsjj/RainClouds_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/ootnsm5ns3ghcv7/RainClouds_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/arqi2vqz5qxyn3e/SeaWaves1_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/n7ou2df4kr6zbjy/SeaWaves1_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/8xxbiog38wd96ac/SeaWaves2_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/dx54a61zuclkzpn/SeaWaves2_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/pt2drpp7ij9rbex/SeaWaves3_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/7typx44jue2gfz2/SeaWaves3_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/htlgycrlod2ty1q/SomethingUseful_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/9ackld2z95pljoj/SomethingUseful_b.mp3?dl=0'
-
-
-MP3 One-Off Links
-'https://dl.dropboxusercontent.com/s/f9bwjoar2rxakyi/Curved%20Air_1_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/8ykcah8r6ib7x8q/Curved%20Air_1_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/f0wukvgp9ttre6m/Curved%20Air_2_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/b9xyztw4bgulrug/Curved%20Air_2_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/s4hmjpf8b8zyd3v/Curved%20Air_3_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/lexfyvqhxa3tprr/Curved%20Air_3_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/alwtauuugjgsm5t/Curved%20Air_4_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/umbk5e7f60zj6oj/Curved%20Air_4_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/d66vr2cckzg7wo7/Curved%20Air_5_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/te05c77gi5qtf5s/Curved%20Air_5_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/8rq2lzwyu6espbo/Curved%20Air_6_a.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/vp2812ju01ughbv/Curved%20Air_6_b.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/dqbhd9i4l1sraf8/Scale_01.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/rkzvgno8f7z7nfp/Scale_02.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/zorfn2llm8wcal4/Scale_03.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/0e1eocc8qrs8zqa/Scale_04.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/jcsyd0mpvupkn6b/Scale_05.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/cja5v4l7s9vvmih/Scale_06.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/0zf057clcs6tocr/Scale_07.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/xne1du6sl85v3hm/Scale_08.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/vcnwssrtgjx51lb/Scale_09.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/7m4st7sgfk5z4q2/Scale_10.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/xee0le35sqamnw2/Scale_11.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/rmiwkc5p0wh9vit/Scale_12.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/hxwrm45ppb3sm56/Scale_13.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/wlihecoq5s703kl/Scale_14.mp3?dl=0',
-'https://dl.dropboxusercontent.com/s/n1relvywwkrjkp5/Scale_15.mp3?dl=0',
-
-
-
-
-
-
-
-
-*/
