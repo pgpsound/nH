@@ -3,13 +3,6 @@
 var userTrigger;
 var btnToggle = false;
 var button;
-var nasa;
-
-nasa = document.getElementById('title');
-nasa.addEventListener('click', function(e) {
-  e.preventDefault();
-  window.open("https://www.nasa.gov/mission_pages/newhorizons/main/index.html");
-});
 
 $(document).ready(function () {
   $("#title").fadeIn(900);
@@ -35,12 +28,14 @@ function unlockBtn3() {
   userTrigger = setTimeout(unlockBtn4, 1000);
 };
 
+const ENTER = 13;
+const SPACE = 32;
 
 function unlockBtn4() {
   document.getElementById('textBtn').innerHTML = "Begin"
   $("#textBtn").fadeIn(1000);
   button = document.getElementById('textBtn');
-  button.addEventListener('click', function(e) {
+  button.addEventListener('pointerdown', function(e) {
       e.preventDefault();
       // triggers audio functions:
       audioLoopPlay();
@@ -53,6 +48,22 @@ function unlockBtn4() {
         $("#textBtn").fadeOut(100);
         userTrigger = setTimeout(btnRestart, 500);
       }
+  });
+  button.addEventListener('keydown', function(e) {
+    if (event.keyCode === ENTER || event.keyCode === SPACE) {
+      e.preventDefault();
+      // triggers audio functions:
+      audioLoopPlay();
+      particleStart();
+      if (btnToggle == false){
+        $("#textBtn").fadeOut(100);
+        userTrigger = setTimeout(btnStop, 500);
+      }
+      if (btnToggle == true) {
+        $("#textBtn").fadeOut(100);
+        userTrigger = setTimeout(btnRestart, 500);
+      }
+    }
   });
 };
 

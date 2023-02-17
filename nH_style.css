@@ -4,7 +4,7 @@ body {
     background-color: black;
 }
 
-h1 {
+#title {
   color: white;
   text-align: center;
   font-family: 'Orbitron', "Lucida Console", Monaco, monospace;
@@ -18,7 +18,9 @@ h1 {
   max-width: auto;
   z-index: 1;
   padding-top: 10px;
+  text-decoration: none;
 }
+
 
 #textBtn {
   font-family: 'Chakra Petch', "Lucida Console", Monaco, monospace;
@@ -51,11 +53,10 @@ p {
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family: 'Chakra Petch', "Lucida Console", Monaco, monospace;
   background-color: black;
   color: white;
   text-align: center;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   z-index: 1;
 }
 
