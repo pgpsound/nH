@@ -8,16 +8,14 @@ body {
   color: white;
   text-align: center;
   font-family: 'Orbitron', "Lucida Console", Monaco, monospace;
-  font-size: calc(40px + (65 - 40) * ((100vw - 300px) / (2000 - 300)));
+  font-size: 4.3vh;
   display: none;
-  margin: 0;
+  width: 95%;
   position: absolute;
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: auto;
   z-index: 1;
-  padding-top: 10px;
   text-decoration: none;
 }
 
@@ -25,31 +23,32 @@ body {
 #textBtn {
   font-family: 'Chakra Petch', "Lucida Console", Monaco, monospace;
   font-weight: 300;
-  font-size: calc(32px + (40 - 32) * ((100vw - 300px) / (2000 - 300)));
+  font-size: 3.5vh;
   color: white;
+  width: 95%;
 	text-align: center;
   display: none;
   position: absolute;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: auto;
   z-index: 1;
 }
 
 p {
   font-family: 'Chakra Petch', "Lucida Console", Monaco, monospace;
-  font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (2000 - 300)));
+  font-size: 2.5vh;
   font-weight: 300;
   color: white;
+  width: 95%;
 	text-align: center;
   display: none;
   position: absolute;
-  top: 93%;
+  top: 94%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  padding-bottom: 7px;
+  padding: 10px;
 }
 
 a:link, a:visited, a:hover, a:active {
